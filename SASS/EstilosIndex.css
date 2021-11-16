@@ -3,7 +3,6 @@
   margin: 0px;
 }
 
-/*----HEADER--*/
 .logo1 {
   width: 90px;
   height: 90px;
@@ -54,6 +53,7 @@
   .header--lista a {
     text-decoration: none;
     color: black;
+    font-family: 'Oswald', sans-serif;
   }
   .header--lista a:hover {
     color: black;
