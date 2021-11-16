@@ -1,0 +1,51 @@
+@media screen and (max-width: 950px){
+    .header--nav{
+display: none;
+    }
+}
+
+/*-----NOTEBOOK Y ESCRITORIO*/
+@media screen and (min-width: 950px){
+ #nav2{
+     display: none;
+ }
+
+.header{
+    background-color: white;
+}
+.header--nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header--logo{
+    .logo{
+        width: 8vw;
+        height: 10vh;
+    }
+}
+
+.header--lista{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+.header--lista li{
+        margin:0rem 3rem;
+    }
+.header--lista a{
+    text-decoration: none;
+    color: black;
+}
+.header--lista a:hover{
+    color: black;
+    border-bottom: 2px solid;
+}
+}
+
+
+
+/*-----TABLETS--*/
+@media screen and (min-width: 576px){
+
+}

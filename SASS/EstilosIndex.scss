@@ -1,0 +1,16 @@
+@import "./HEADER";
+@import "./MEDIA";
+
+
+
+
+
+
+
+@for $w from 1 to 100 {
+    .w-#{$w} {width: 1vw * $w;}
+}
+
+@for $h from 1 to 100 {
+    .h-#{$h} {height: 1vh * $h;}
+}
