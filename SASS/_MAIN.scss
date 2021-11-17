@@ -1,0 +1,71 @@
+@mixin flexrc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+/*---Formulario*/
+.formulario{
+    background-color: #9AA173;
+}
+.formulario--divtitulo{
+    @include flexrc;
+}
+.formulario--titulo{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 1px solid #252525;
+    margin-bottom: 2rem;
+    
+}
+
+/*----BOTON----*/
+.div--boton{
+    @include flexrc;
+    margin-top: 3rem;
+    
+}
+.formulario--boton{
+background-color: #65694D;
+border: 1px solid;
+width: 7rem;
+height: 2rem;
+}
+.formulario--boton:hover{
+    border: 1px solid white;
+}
+.formulario--boton a{
+text-decoration: none;
+color: white;
+}
+.formulario--boton a:hover{
+    color: white;
+    
+}
+/*----Cierro Boton*/
+
+
+/*----Contenido MAIN--*/
+
+.main--contenido{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.main--titulo{
+    color: #646b46;
+    font-size: 2.3rem;
+    
+}
+#linea{
+    color: orange;
+}
+.main--texto{
+    text-align: left;
+    width: 80%;
+}

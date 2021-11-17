@@ -1,6 +1,6 @@
 @import "./HEADER";
 @import "./MEDIA";
-
+@import "./MAIN";
 
 
 
@@ -14,3 +14,4 @@
 @for $h from 1 to 100 {
     .h-#{$h} {height: 1vh * $h;}
 }
+

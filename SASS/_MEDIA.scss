@@ -1,3 +1,11 @@
+@mixin flexrSB {
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+
+
 @media screen and (max-width: 950px){
     .header--nav{
 display: none;
@@ -10,12 +18,15 @@ display: none;
      display: none;
  }
 
+ /*----HEADER*/
+
 .header{
     background-color: white;
+    position: sticky;
+top: 0.0000001px
 }
 .header--nav{
-    display: flex;
-    justify-content: space-between;
+    @include flexrSB;
 }
 .header--logo{
     .logo{
@@ -43,6 +54,10 @@ display: none;
     border-bottom: 2px solid;
 }
 }
+/*---------CIERRO HEADER--*/
+
+
+
 
 
 

@@ -54,7 +54,7 @@
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
             <img src="/imagenes/logo.png" alt="Logo del hotel" class="logo1">
-          <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Park Tower Hotel</h5>
+          <h5 class="offcanvas-title text-success" id="offcanvasNavbarLabel">Park Tower Hotel</h5>
 
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
@@ -87,6 +87,7 @@
     </header>
 
     <main class="main">
+      <!--ABRO CAROUSEL-->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -112,10 +113,88 @@
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Siguiente</span>
-            </button>
+            </button> 
           </div>
+ <!--CIERRO CAROUSEL-->
 
 
+  <!--ABRO FORMULARIO-->
+<form action="" class="formulario">
+<div class="formulario--divtitulo">
+<h2 class="formulario--titulo">RESERVA ONLINE</h2>
+</div>
+<div class="container-fluid d-flex flex-row flex-wrap justify-content-around">
+<div class=" mb-2">
+  <label for="exampleInputEmail1" class="form-label">Nombre completo</label>
+  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar nombre y apellido." required>  
+</div>
+
+<div class="mb-2">
+  <label for="exampleInputEmail1" class="form-label">E-Mail</label>
+  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar E-mail." required>
+</div>
+
+<div class="mb-2">
+  <label for="exampleInputEmail1" class="form-label">Telefono/Celular</label>
+  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar Telefono o celular de contacto." required>
+</div>
+
+
+<div class="mb-2">
+  <label for="select__habitacion" class="form-label">Habitación</label>
+    <select class="form-select" aria-label="Default select example" >
+        <option selected>Elegir habitación</option>
+        <option value="1">Matrimonial Deluxe</option>
+        <option value="2">Simple Deluxe</option>
+        <option value="3">Matrimonial Clasica</option>
+        <option value="4">Simple o Doble</option>
+      </select>
+</div>
+</div>
+<!--Espacio-->
+<div class=" container-fluid d-flex flex-row flex-wrap justify-content-around">
+<div>
+  <label for="select__adultos" class="form-label">Adultos</label>
+  <select class="form-select" aria-label="Default select example">
+      <option selected>Elegir cantidad de adultos</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4 o mas</option>
+    </select>
+</div>
+
+<div>
+  <label for="select__niños" class="form-label">Niños</label>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Elegir cantidad de niños</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 o mas</option>
+      </select>
+</div>
+
+<div>
+  <label for="date__arribo" class="form-label">Fecha de arribo</label>
+  <input type="date" class="form-control" >
+</div>
+
+<div>
+  <label for="date__salida" class="form-label">Fecha de salida</label>
+  <input type="date" class="form-control">
+</div>
+</div>
+<div class="div--boton">
+  <button class="formulario--boton"><a href="confirmación.html">Enviar reserva</a></button>
+</div>
+</form>
+
+<div class="main--contenido">
+  <h1 class="main--titulo">BIENVENIDOS A PARK TOWER</h1>
+  <i class="far fa-horizontal-rule fa-2x" id="linea"></i>
+  <p class="main--texto">Nuestro Hotel, ubicado en la zona de <b>Retiro</b>, uno de los 48 barrios de la Ciudad Autónoma de Buenos Aires, se caracteriza por ser un espacio urbano residencial, con servicios de lujo unicos en la ciudad, hay estacionamiento y disponibilidad de alojamiento cuando quieras. Es un lugar seguro y exclusivo, en un entorno natural y residencial de la ciudad porteña.</p>
+</div>
 
 
 
