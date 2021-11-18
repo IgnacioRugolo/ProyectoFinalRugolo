@@ -163,6 +163,7 @@
 .main--titulo {
   color: #646b46;
   font-size: 2.3rem;
+  font-family: 'Oswald', sans-serif;
 }
 
 #linea {
@@ -171,7 +172,6 @@
 
 .main--texto {
   text-align: left;
-  width: 95%;
 }
 
 .habitacion {
@@ -185,6 +185,7 @@
 }
 
 .section1--titulo {
+  font-family: 'Oswald', sans-serif;
   color: white;
   font-size: 1.9rem;
 }
@@ -238,11 +239,71 @@
 
 .galeria h3 {
   border-bottom: 1px solid;
+  font-family: 'Oswald', sans-serif;
 }
 
 .galeria--img {
   width: 90%;
   height: 40%;
+}
+
+.servicios {
+  margin-top: 4rem;
+}
+
+/*---PRIMER PARTE*/
+.servicios--div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servicios--titulo {
+  color: #646b46;
+  font-size: 2.3rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.servicios--texto {
+  text-align: center;
+}
+
+/*---SEGUNDA PARTE*/
+.servicios2--div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+  background-color: #c3bd86;
+}
+
+.servicios2--titulo {
+  color: #646b46;
+  font-size: 2.3;
+}
+
+.servicios2--lista {
+  margin-top: 1rem;
+}
+
+.servicios2--lista li {
+  list-style: none;
+  border-bottom: 1px solid #a5a5a5;
+  line-height: 1.9rem;
 }
 
 .w-1 {

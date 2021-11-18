@@ -1,0 +1,39 @@
+.servicios{
+    margin-top: 4rem;
+}
+
+/*---PRIMER PARTE*/
+.servicios--div{
+@include flexcc;
+}
+.servicios--titulo{
+    color: #646b46;
+    font-size: 2.3rem;
+    font-family: 'Oswald', sans-serif;
+}
+.servicios--texto{
+    text-align: center ;
+}
+
+
+
+/*---SEGUNDA PARTE*/
+.servicios2--div{
+    @include flexcc;
+    margin-top: 3rem;
+    background-color: #c3bd86;
+}
+
+.servicios2--titulo{
+    color: #646b46;
+    font-size: 2.3;
+}
+.servicios2--lista{
+margin-top: 1rem;
+}
+
+.servicios2--lista li{
+list-style: none;
+border-bottom: 1px solid $color-line;
+line-height: 1.9rem;
+}
