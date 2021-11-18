@@ -71,9 +71,16 @@
     color: black;
     border-bottom: 2px solid;
   }
+  /*---------CIERRO HEADER--*/
+  /*---------ABRO MAIN--*/
+  .main--texto {
+    text-align: center !important;
+    width: 50% !important;
+  }
 }
 
-/*---------CIERRO HEADER--*/
+/*--------Cierro Main--*/
+/*--------ABRO SECTION 1*/
 /*-----TABLETS--*/
 /*---Formulario*/
 .formulario {
@@ -121,6 +128,7 @@
   border: 1px solid;
   width: 7rem;
   height: 2rem;
+  margin-bottom: 2rem;
 }
 
 .formulario--boton:hover {
@@ -146,8 +154,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -165,7 +171,78 @@
 
 .main--texto {
   text-align: left;
-  width: 80%;
+  width: 95%;
+}
+
+.habitacion {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  background-color: #c3bd86;
+}
+
+#icono--habitacion {
+  color: #646b46;
+}
+
+.section1--titulo {
+  color: white;
+  font-size: 1.9rem;
+}
+
+.section1--lista {
+  list-style: none;
+  line-height: 1.9rem;
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.section1--lista li {
+  color: white;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.section1--contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #646b46;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.galeria:hover {
+  color: #646b46;
+}
+
+.galeria h3 {
+  border-bottom: 1px solid;
+}
+
+.galeria--img {
+  width: 90%;
+  height: 40%;
 }
 
 .w-1 {
