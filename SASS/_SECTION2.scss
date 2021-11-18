@@ -37,3 +37,25 @@ list-style: none;
 border-bottom: 1px solid $color-line;
 line-height: 1.9rem;
 }
+
+
+.galeria2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #646b46;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.galeria2:hover{
+    color:#646b46;
+}
+.galeria2 h3{
+    border-bottom: 1px solid;
+    font-family: 'Oswald', sans-serif;
+}
+.galeria2--img{
+    width: 90%;
+    height: 40%;
+}

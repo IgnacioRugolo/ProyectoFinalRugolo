@@ -34,23 +34,22 @@ $color-line:#a5a5a5;
 @include flexcc;
 }
 
-.galeria{
+.galeria1{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
     color: #646b46;
     margin-top: 3rem;
-    margin-bottom: 2rem;
 }
-.galeria:hover{
+.galeria1:hover{
     color:#646b46;
 }
-.galeria h3{
-    border-bottom: 1px solid;
+.galeria1 h3{
     font-family: 'Oswald', sans-serif;
 }
-.galeria--img{
+.galeria1--img{
     width: 90%;
     height: 40%;
+    margin-bottom: 2rem;
 }

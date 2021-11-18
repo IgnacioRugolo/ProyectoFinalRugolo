@@ -16,6 +16,9 @@
   .header--nav {
     display: none;
   }
+  .section1--galeria2 {
+    display: none;
+  }
 }
 
 /*-----NOTEBOOK Y ESCRITORIO*/
@@ -77,11 +80,61 @@
     text-align: center !important;
     width: 50% !important;
   }
+  /*--------Cierro Main--*/
+  /*--------ABRO SECTION 1*/
+  .section1--contenido {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .section1--media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .section1--lista {
+    width: 50%;
+  }
+  .galeria1--div {
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+  }
+  .galeria1 h3:hover {
+    color: black;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .galeria1 img {
+    width: 80%;
+    height: 70%;
+  }
+  .galeria1 img:hover {
+    -webkit-transform: scale(0.9, 0.9);
+            transform: scale(0.9, 0.9);
+  }
 }
 
-/*--------Cierro Main--*/
-/*--------ABRO SECTION 1*/
 /*-----TABLETS--*/
+@media screen and (min-width: 576px) {
+  /*----MAIN*/
+  .main--texto {
+    text-align: center !important;
+    width: 85%;
+  }
+}
+
 /*---Formulario*/
 .formulario {
   background-color: #9AA173;
@@ -216,7 +269,7 @@
           align-items: center;
 }
 
-.galeria {
+.galeria1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,21 +283,20 @@
   text-decoration: none;
   color: #646b46;
   margin-top: 3rem;
-  margin-bottom: 2rem;
 }
 
-.galeria:hover {
+.galeria1:hover {
   color: #646b46;
 }
 
-.galeria h3 {
-  border-bottom: 1px solid;
+.galeria1 h3 {
   font-family: 'Oswald', sans-serif;
 }
 
-.galeria--img {
+.galeria1--img {
   width: 90%;
   height: 40%;
+  margin-bottom: 2rem;
 }
 
 .servicios {
@@ -304,6 +356,37 @@
   list-style: none;
   border-bottom: 1px solid #a5a5a5;
   line-height: 1.9rem;
+}
+
+.galeria2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #646b46;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.galeria2:hover {
+  color: #646b46;
+}
+
+.galeria2 h3 {
+  border-bottom: 1px solid;
+  font-family: 'Oswald', sans-serif;
+}
+
+.galeria2--img {
+  width: 90%;
+  height: 40%;
 }
 
 .w-1 {
