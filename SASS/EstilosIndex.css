@@ -19,6 +19,9 @@
   .section1--galeria2 {
     display: none;
   }
+  .seccion2--carousel {
+    display: none;
+  }
 }
 
 /*-----NOTEBOOK Y ESCRITORIO*/
@@ -123,6 +126,36 @@
   .galeria1 img:hover {
     -webkit-transform: scale(0.9, 0.9);
             transform: scale(0.9, 0.9);
+  }
+  /*--------SECTION2*/
+  .servicios2--galeria2 {
+    display: none;
+  }
+  .seccion2--carousel {
+    background-color: #c3bd86 !important;
+    margin-bottom: 2rem;
+  }
+  /*------SECTION3*/
+  .section3--img {
+    width: 15vw !important;
+  }
+  .section3--img:hover {
+    -webkit-transform: scale(0.9, 0.9);
+            transform: scale(0.9, 0.9);
+  }
+  .section3--guia {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .section3--guia p {
+    width: 15vw;
   }
 }
 
@@ -328,7 +361,11 @@
 }
 
 /*---SEGUNDA PARTE*/
-.servicios2--div {
+.servicios2--media {
+  background-color: #c3bd86;
+}
+
+.servicios2--contenido {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -339,26 +376,21 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 3rem;
   background-color: #c3bd86;
 }
 
 .servicios2--titulo {
   color: #646b46;
-  font-size: 2.3;
-}
-
-.servicios2--lista {
-  margin-top: 1rem;
 }
 
 .servicios2--lista li {
+  color: whitesmoke;
   list-style: none;
   border-bottom: 1px solid #a5a5a5;
-  line-height: 1.9rem;
+  font-family: 'Oswald', sans-serif;
 }
 
-.galeria2 {
+.servicios2--galeria2 a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,24 +401,96 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.galeria2 {
   text-decoration: none;
-  color: #646b46;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
 }
 
-.galeria2:hover {
+.galeria2--titulo {
   color: #646b46;
 }
 
-.galeria2 h3 {
-  border-bottom: 1px solid;
-  font-family: 'Oswald', sans-serif;
+.galeria2--titulo:hover {
+  color: black;
+  border-bottom: 1px solid whitesmoke;
 }
 
 .galeria2--img {
   width: 90%;
   height: 40%;
+  margin-bottom: 2rem;
+}
+
+.section3--ubicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5rem;
+}
+
+.section3--ubicacion h2 {
+  font-size: 2.3rem;
+  color: #646b46;
+}
+
+.section3--mapa {
+  width: 100%;
+}
+
+/*------SEGUNDA PARTE*/
+.section3--titulo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  color: #646b46;
+}
+
+.section3--img {
+  width: 100%;
+}
+
+.section3--guia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section3--guia div {
+  margin-top: 2rem;
+}
+
+.section3--guia p {
+  font-weight: bold;
+}
+
+.section3--caracteristicas img {
+  width: 100%;
 }
 
 .w-1 {

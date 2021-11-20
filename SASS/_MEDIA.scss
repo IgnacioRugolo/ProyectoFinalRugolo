@@ -13,6 +13,9 @@ display: none;
     .section1--galeria2{
         display: none;
     }
+    .seccion2--carousel{
+        display: none;
+    }
 }
 
 /*-----NOTEBOOK Y ESCRITORIO*/
@@ -104,6 +107,35 @@ width: 50% !important;
 .galeria1 img:hover{
 transform: scale(0.9,0.9);
 }
+
+/*--------SECTION2*/
+.servicios2--galeria2{
+    display: none;
+}
+.seccion2--carousel{
+    background-color: #c3bd86 !important;
+    margin-bottom: 2rem;
+}
+
+/*------SECTION3*/
+.section3--img{
+    width: 15vw !important;
+}
+.section3--img:hover{
+   transform: scale(0.9,0.9);
+    
+}
+.section3--guia{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    
+}
+.section3--guia p{
+    width: 15vw;
+}
+
+
 }
 
 

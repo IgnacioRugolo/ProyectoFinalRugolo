@@ -1,0 +1,43 @@
+.section3--ubicacion{
+ @include flexcc;
+ margin-top: 5rem;
+}
+.section3--ubicacion h2{
+    font-size: 2.3rem;
+    color: #646b46;
+}
+.section3--mapa{
+    width: 100%;
+}
+
+/*------SEGUNDA PARTE*/
+.section3--titulo2{
+    @include flexcc;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color:$color-titulo;
+}
+
+.section3--img{
+    width: 100%;
+}
+.section3--guia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.section3--guia div{
+    margin-top: 2rem;
+}
+
+.section3--guia p{
+    font-weight: bold;
+
+}
+.section3--caracteristicas img{
+   width: 100%;
+}
+
