@@ -135,6 +135,99 @@ transform: scale(0.9,0.9);
     width: 15vw;
 }
 
+//FOOTER 
+
+.footer--div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem !important;
+    
+}
+//Primer Seccion del footer
+
+.footer--div1{
+width: 20%;
+
+}
+.footer--img{
+    width: 6.5rem !important;
+   
+}
+.footer--div1 p{
+    width: 85% !important;
+
+}
+
+//Segunda Seccion del footer
+.footer--div2{
+    align-items: center !important;
+
+}
+.footer--div2 label{
+margin-bottom: 1rem;
+}
+.input--texto{
+    width: 18rem !important;
+    margin-bottom: 1rem;
+}
+.input--boton{
+    width: 7rem !important;
+}
+//Tercera Seccion del footer
+.footer--div3{
+    margin-top: 1.3rem;
+}
+.footer--div3 h5, ul{
+    align-items: center !important;
+    margin: -20px !important;
+}
+
+.footer--div3 li{
+    
+    font-size: 1rem !important;
+    font-weight: bold;
+    margin: 10px;
+    text-align: start;
+
+}
+.footer--div3 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer--div3 a:hover{
+    color: #006055;
+}
+.footer--div3 h5{
+    color: #5e6445;
+    font-family: 'Oswald', sans-serif;
+font-weight: bold;
+font-size: 1.5rem;
+text-align: center;
+}
+
+//Cuarta Seccion del footer 
+.footer--div4 ul, h5{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 1rem;
+}
+.footer--div4 h5{
+    color: #5e6445;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.footer--div4 li{
+list-style: none;
+margin: 10px;
+}
+
+
+
+
+
 
 }
 

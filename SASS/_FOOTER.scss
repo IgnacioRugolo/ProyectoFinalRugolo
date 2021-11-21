@@ -1,0 +1,112 @@
+#footer{
+   background-color: #9AA173;  
+}
+
+.footer--div{
+    padding: 1rem;
+}
+
+
+
+//Primer Seccion del footer
+.footer--div1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem;
+   
+}
+.footer--img{
+    width: 5rem;
+    border-radius: 8rem;
+}
+
+.footer--div1 p{
+    color: whitesmoke;
+    width: 80%;
+    font-family: 'Oswald', sans-serif;  
+}
+
+//Segunda Seccion del footer
+.footer--div2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.footer--div2 label{
+    color: #006055;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: start;
+}
+.input--texto{
+    width: 15rem;
+}
+.input--boton{
+    width: 5rem;
+}
+//Tercera Seccion del footer
+.footer--div3 h5, ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.footer--div3 li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px;
+    text-align: start;
+
+}
+.footer--div3 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer--div3 h5{
+    color: #006055;
+    font-family: 'Oswald', sans-serif;
+font-weight: bold;
+font-size: 1.5rem;
+text-align: center;
+}
+
+//Cuarta Seccion del footer 
+.footer--div4 ul, h5{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 1rem;
+}
+.footer--div4 h5{
+    color: #006055;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.footer--div4 li{
+list-style: none;
+margin: 10px;
+}
+.footer--div4 a{
+    
+    color: whitesmoke;
+}
+
+.instagram:hover{
+  color: #DD2A7B; 
+}
+
+.facebook:hover{
+    color: #3759a3;
+}
+.youtube:hover{
+    color: #C4302B;
+}

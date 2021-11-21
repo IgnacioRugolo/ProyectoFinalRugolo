@@ -4,7 +4,10 @@
     margin: 0px;
  
 }
-
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .text-success{
     color: #646b46 !important;
 }
