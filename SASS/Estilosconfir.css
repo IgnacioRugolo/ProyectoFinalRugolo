@@ -1,1 +1,71 @@
-/* No CSS *//*# sourceMappingURL=Estilosconfir.css.map */
+.grid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "h" "s" "f";
+  -ms-grid-rows: 0.2fr 1fr 1fr;
+      grid-template-rows: 0.2fr 1fr 1fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: h;
+}
+
+.confir {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: s;
+}
+
+.footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: f;
+}
+
+.confir--div {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.confir--div h1 {
+  color: #646b46;
+}
+
+.confir--boton {
+  margin-bottom: 5rem;
+  border-radius: 10rem;
+  background-color: #646b46;
+  width: 35vw;
+}
+
+.confir--boton a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.confir--boton a:hover {
+  color: black;
+}
+
+@media screen and (min-width: 576px) {
+  .confir--boton {
+    width: 20vw;
+  }
+}
+/*# sourceMappingURL=Estilosconfir.css.map */

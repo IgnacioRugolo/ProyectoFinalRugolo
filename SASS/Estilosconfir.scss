@@ -1,0 +1,64 @@
+
+.grid{
+    display: grid;
+    grid-template-areas: "h"
+                         "s"
+                         "f"  ;
+ grid-template-rows: 0.2fr 1fr 1fr;
+ grid-template-columns: 1fr;
+height: 100vh;
+width: 100vw;
+
+                         
+}
+
+.header{
+    grid-area: h;
+
+}
+.confir{
+    grid-area: s;
+
+}
+.footer{
+    grid-area: f;
+
+}
+
+
+
+//SECTION 
+
+.confir--div{
+margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+.confir--div h1{
+    color:#646b46 ;
+}
+
+.confir--boton{
+    margin-bottom: 5rem;
+border-radius: 10rem ;
+background-color:#646b46 ;
+width: 35vw;
+
+}
+.confir--boton a{
+    text-decoration: none;
+    color:whitesmoke;
+
+}
+.confir--boton a:hover{
+    color: black;
+}
+
+@media screen and (min-width: 576px){
+    .confir--boton{
+        width: 20vw;
+    }
+}
