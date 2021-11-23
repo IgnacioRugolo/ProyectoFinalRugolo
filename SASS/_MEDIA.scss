@@ -135,6 +135,12 @@ transform: scale(0.9,0.9);
     width: 15vw;
 }
 
+
+
+
+
+
+
 //FOOTER 
 
 .footer--div{
@@ -224,8 +230,32 @@ list-style: none;
 margin: 10px;
 }
 
+//Caracteristicas de la zona
+.section3--texto{
+    margin-top: 3rem;
+}
+.section3--texto p{
+  width: 50%
+   
+}
 
 
+
+
+
+//SECTION 4 
+
+.section4--div {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+
+}
+.section4{
+    height: 15vh;
+    
+    
+}
 
 
 

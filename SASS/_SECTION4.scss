@@ -1,0 +1,50 @@
+.section4{
+    background-color: #e5e5e5;
+    
+}
+
+.section4--div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+    
+}
+.section4--div div{
+ margin-top: 2rem;
+}
+.section4--div a{
+font-weight: bold;
+    color: #252525;
+    text-decoration: none;
+}
+.section4--mensaje a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.section4--guia a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.section4--mail a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.section4--mensaje a:hover{
+color: forestgreen;
+}
+.section4--guia a:hover{
+color: rgb(87, 90, 240);
+}
+.section4--mail a:hover{
+    color: rgb(246, 136, 136);
+}
