@@ -25,6 +25,8 @@
 .servicios2--contenido{
     @include flexcc;
     background-color: #c3bd86;
+    height: 40vh;
+
 }
 
 .servicios2--titulo{
@@ -32,6 +34,7 @@
     
 }
 .servicios2--lista li{
+    line-height: 2rem;
     color: whitesmoke;
     list-style: none;
     border-bottom: 1px solid $color-line;
@@ -39,7 +42,9 @@
 
 }
 
-
+.servicios2--galeria2{
+    margin-top: 4rem;
+}
 .servicios2--galeria2 a{
     display: flex;
     flex-direction: column;
@@ -57,7 +62,8 @@
     border-bottom: 1px solid whitesmoke;
 }
 .galeria2--img{
-    width: 90%;
-    height: 40%;
+    width: 90vw;
+    height: 30vh;
     margin-bottom: 2rem;
+    box-shadow: 0 0 1rem 0 black;
 }
