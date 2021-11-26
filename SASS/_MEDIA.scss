@@ -18,6 +18,20 @@ display: none;
     }
 }
 
+@media screen and (max-width: 1500px){
+    .seccion2--carousel{
+        display: none;
+    }
+     
+    }
+    
+    @media screen and (min-width:1501px){
+        .servicios2--galeria2{
+            display: none    ;
+        }
+    
+    }
+
 /*-----NOTEBOOK Y ESCRITORIO*/
 @media screen and (min-width: 950px){
  #nav2{
@@ -288,16 +302,3 @@ margin: 10px;
 }
 
 
-@media screen and (max-width: 1500px){
-.seccion2--carousel{
-    display: none;
-}
- 
-}
-
-@media screen and (min-width:1501px){
-    .servicios2--galeria2{
-        display: none    ;
-    }
-
-}
