@@ -1,9 +1,7 @@
 .titulo--galeria{
     color: #646b46;
     margin-top: 8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   @include flexcc;
 }
 
 .container-fluid{

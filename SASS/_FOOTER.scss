@@ -11,9 +11,7 @@
 
 //Primer Seccion del footer
 .footer--div1{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+ @include flexcFS;
     flex-wrap: wrap;
     padding: 1rem;
    
@@ -31,9 +29,7 @@
 
 //Segunda Seccion del footer
 .footer--div2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+   @include flexcFS;
     flex-wrap: wrap;
     padding: 1rem;
 }
@@ -52,9 +48,7 @@
 }
 //Tercera Seccion del footer
 .footer--div3 h5, ul{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+ @include flexcFS;
     flex-wrap: wrap;
     padding: 1rem;
 }
@@ -81,9 +75,7 @@ text-align: center;
 
 //Cuarta Seccion del footer 
 .footer--div4 ul, h5{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
+ @include flexcFS;
 padding: 1rem;
 }
 .footer--div4 h5{

@@ -1,0 +1,23 @@
+@mixin flexrc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@mixin flexrSB {
+    display: flex;
+     flex-direction: row;
+     justify-content: space-between; 
+ }
+@mixin flexcc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin flexcFS {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+$color-titulo: #646b46;
+$color-line:#a5a5a5;
+

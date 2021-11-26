@@ -22,9 +22,7 @@
     width: 100%;
 }
 .section3--guia{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   @include flexcc;
     flex-wrap: wrap;
     
 }
@@ -62,9 +60,7 @@
      position: absolute;
      bottom: 0rem;
     top: -0.5rem;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+   @include flexcc;
    text-align: center;
     color: white;
     font-weight: bold;
