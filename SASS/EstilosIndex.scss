@@ -6,7 +6,7 @@
 @import "./SECTION3";
 @import "./SECTION4";
 @import "./FOOTER";
-
+@import "./VARIABLES";
 
 @for $w from 1 to 100 {
     .w-#{$w} {width: 1vw * $w;}

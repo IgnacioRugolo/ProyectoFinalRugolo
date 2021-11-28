@@ -1,3 +1,4 @@
+
 .servicios{
     margin-top: 4rem;
 }
@@ -20,12 +21,12 @@
 /*---SEGUNDA PARTE*/
 
 .servicios2--media{
-    background-color: #c3bd86;
+    background-color: #c3bd86 ;
+    height: 100%; 
 }
 .servicios2--contenido{
     @include flexcc;
-    background-color: #c3bd86;
-    height: 40vh;
+    height: 45vh;
 
 }
 
