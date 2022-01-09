@@ -115,35 +115,35 @@
 
 
   <!--ABRO FORMULARIO-->
-<form action="" class="formulario">
+<form action="" class="formulario" id="form">
 <div class="formulario--divtitulo">
 <h2 class="formulario--titulo">RESERVA ONLINE</h2>
 </div>
 <div class="container-fluid d-flex flex-row flex-wrap justify-content-around">
 <div class=" mb-2">
   <label for="exampleInputEmail1" class="form-label">Nombre completo</label>
-  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar nombre y apellido." required>  
+  <input type="text" class="form-control" id="inputNombre" aria-describedby="emailHelp" placeholder="Ingresar nombre y apellido." required>  
 </div>
 
 <div class="mb-2">
   <label for="exampleInputEmail1" class="form-label">E-Mail</label>
-  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar E-mail." required>
+  <input type="email" class="form-control" id="inputMail" aria-describedby="emailHelp" placeholder="Ingresar E-mail." required>
 </div>
 
 <div class="mb-2">
   <label for="exampleInputEmail1" class="form-label">Telefono/Celular</label>
-  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar Telefono o celular de contacto." required>
+  <input type="number" class="form-control" id="inputTelefono" aria-describedby="emailHelp" placeholder="Ingresar Telefono o celular de contacto." required>
 </div>
 
 
 <div class="mb-2">
   <label for="select__habitacion" class="form-label">Habitación</label>
-    <select class="form-select" aria-label="Default select example" >
+    <select class="form-select" aria-label="Default select example" id="tipoDeHab">
         <option selected>Elegir habitación</option>
-        <option value="1">Matrimonial Deluxe</option>
-        <option value="2">Simple Deluxe</option>
-        <option value="3">Matrimonial Clasica</option>
-        <option value="4">Simple o Doble</option>
+        <option value="Matrional Deluxe">Matrimonial Deluxe</option>
+        <option value="Simple Deluxe">Simple Deluxe</option>
+        <option value="Matrimonial Clasica">Matrimonial Clasica</option>
+        <option value="Simple o Doble">Simple o Doble</option>
       </select>
 </div>
 </div>
@@ -151,23 +151,23 @@
 <div class=" container-fluid d-flex flex-row flex-wrap justify-content-around">
 <div>
   <label for="select__adultos" class="form-label">Adultos</label>
-  <select class="form-select" aria-label="Default select example">
+  <select class="form-select" aria-label="Default select example" id="cantAdultos">
       <option selected>Elegir cantidad de adultos</option>
       <option value="1">1</option>
       <option value="2">2</option>
       <option value="3">3</option>
-      <option value="4">4 o mas</option>
+      <option value="4 o mas">4 o mas</option>
     </select>
 </div>
 
 <div>
   <label for="select__niños" class="form-label">Niños</label>
-    <select class="form-select" aria-label="Default select example">
+    <select class="form-select" aria-label="Default select example" id="cantNiños">
         <option selected>Elegir cantidad de niños</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
-        <option value="4">4 o mas</option>
+        <option value="4 o mas">4 o mas</option>
       </select>
 </div>
 
@@ -182,7 +182,7 @@
 </div>
 </div>
 <div class="div--boton">
-  <button class="formulario--boton"><a href="confir.html" target="_blank">Enviar reserva</a></button>
+  <button class="formulario--boton" type="submit"><a href="confir.html" target="_blank" id="formulario--boton1">Enviar reserva</a></button>
 </div>
 </form>
 
@@ -406,6 +406,7 @@
 </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+<script type="module" src="./js/index.js"></script>
+  </body>
 
 
